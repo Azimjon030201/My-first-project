@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    height: 100vh;
+    background: url(images/20532917.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+    margin: 0 auto;
+}
+.header-logo{
+    color:white;
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.menu h3{
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight:lighter;
+    
+}
+.home hr{
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+    height: 1px;
+    background-color: rgba(240, 248, 255, 0.417);
+}
+.home-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: white;
+    text-align: center;
+}
+.home-main h1{
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-size: 60px;
+    
+}
+.home-main p{
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    font-weight: 200;
+}
+.home-main button{
+    padding: 20px 80px;
+    font-family: 'Kalam', cursive;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 40px auto ;
+    font-size:large;
+    cursor: pointer;
+}
+.about{
+    height: 90vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.about h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight:  bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 20px auto; 
+}
+.about hr{
+    width: 5%;
+    height: 10px;
+    border: none;
+    background-color: limegreen;
+    margin: 20px auto;
+}
+.about p{
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    width: 60%;
+    margin: 20px auto;
+    color: rebeccapurple;
+}
+.about img{
+    width: 10%;
+    margin: 20px auto;
+}
+.about h3{
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    margin: 20px auto;
+ 
+}
+.joke{
+    height: 80vh;
+    background: url(images/embody_prd_adjustments_arms_2x_0c53cee1-6308-4973-9442-d516cc5c57e5_1920x.webp) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.joke i{
+    font-size: 50px;
+    margin: 20px auto;
+}
+.joke h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    font-weight: 100;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+.joke p{
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 20px auto;
+}
+.watch{
+    height: 60vh;
+    background: url(images/ocean-wave-11491741920.jpg.webp) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-weight:100;
+    font-size: 30px;
+}
+.watch h1{
+    margin: auto 20px;
+}
+.watch i{
+   font-size: 50px;
+}
+.subscribe{
+    height: 50vh;
+    background: url(images/Lake-Captions-for-Instagram-Lake-Puns-Lake-Quotes-1-4.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe h1{
+    width: 60%;
+    margin: 30px auto;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+}
+.email{
+   border: 1px solid white;
+   background-color: transparent;
+   color: white;
+   padding: 15px 60px 15px 30px;
+   margin-right: 2px;
+   outline: none;
+   
+   
+
+} 
+.submit{
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    color: gray;
+    padding: 15px 80px; 
+    font-family: 'Noto Serif', serif;
+    
+}
+.subscribe form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscribe input::placeholder{
+    color: aliceblue;
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    
+}
+.wedo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.wedo h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight:  bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 20px auto;
+}
+.wedo hr{
+    width: 5%;
+    height: 10px;
+    border: none;
+    background-color: limegreen;
+    margin: 20px auto;
+}
+.blocks{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.block{
+    width: 30%;
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-in{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}   
+.circle-in i{
+    color: white;
+    
+}
+ul.card-circle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+    width: 70px;
+    height: 30px;
+}
+.card-circle li{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block hr{
+    width: 60px;
+    height: 2px;
+    border: none;
+    background-color: aqua;
+    
+}
+.block h2{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+.block p{
+    font-family: 'Kalam', cursive;
+    color: rgb(64, 59, 59);
+    margin: 20px auto;
+}
+
+.workstation{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.workstation h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight:  bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 20px auto;
+}
+.workstation hr{
+    width: 5%;
+    height: 10px;
+    border: none;
+    background-color: limegreen;
+    margin: 0 auto;
+}
+
+.works{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    text-align: center;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 28%;
+}
+.work img{
+    width: 100%;
+}
+.work h3{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+.work hr{
+    width: 60px;
+    height: 2px;
+    border: none;
+    background-color: aqua;
+    
+}
+.work p{
+    font-family: 'Kalam', cursive;
+    color: rgb(64, 59, 59);
+    margin: 20px auto;
+}
+.drop{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.drop h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight:  bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 20px auto;
+}
+.drop hr{
+    width: 5%;
+    height: 10px;
+    border: none;
+    background-color: limegreen;
+    margin: 0 auto;  
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 40px auto;
+}
+.contact{
+    width: 30%;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 40px;
+}
+.contact h3{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+.contact hr{
+    width: 60px;
+    height: 2px;
+    border: none;
+    background-color: lightgreen;
+}
+.contact p{
+    font-family: 'Kalam', cursive;
+    color: rgb(64, 59, 59);
+    margin: 20px auto;
+}
+.contact i{
+    color: aquamarine;
+    font-size: 40px;
+}
+.contact-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    text-align: center;
+    
+}
+.contact-icons i{
+    background-color: darkcyan;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
